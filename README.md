@@ -6,6 +6,8 @@ Tools to manipulate pdf files.
 Things they can do:
 - Edit all the bookmarks of a pdf in a text editor
 - Break a pdf file to multiple based on bookmarks
+- Rewrite a pdf in order to fix file problems
+- Remove annotations from pdf file
 
 
 
