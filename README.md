@@ -1,7 +1,6 @@
 
 # pdf_tools
 
-test
 
 Tools to manipulate pdf files.
 
