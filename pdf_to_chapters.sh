@@ -6,7 +6,7 @@
 ## In some cases the chapters name will be wrong
 
 infile="$1"             ## input pdf
-prefix="${infile%.*}"   ## oupput prefix
+prefix="${infile%.*}"   ## output prefix
 
 [[ ! -f "$infile" ]] && echo "Not a file" && exit 2
 
@@ -26,8 +26,8 @@ levels="$(echo "$metadata" | grep "^BookmarkLevel" | sed 's/BookmarkLevel: //' |
 
 ## Show document outline
 
-#printf "Level\tPage\tTitle\n"
-#echo "$outlist"
+# printf "Level\tPage\tTitle\n"
+# echo "$outlist"
 
 echo "$outlist" | while read line; do
     level="$(echo "$line" | cut -f1)"
@@ -76,7 +76,7 @@ for ((i=0; i < ${#breaks[@]} - 1; ++i)); do
     b=${breaks[i+1]} # end page
     [ "$b" = "end" ] || b=$[b-1]
     [ "$b" = 0     ] && continue
-    ##FIXME do a beter selection of the name have to use an array of titles
+    ##FIXME do a better selection of the name have to use an array of titles
     title="$(echo "$splitlist" | grep -P "\t${a}\t" | head -n1 | cut -f3- | tr '\n' ' ')"
     title="$(echo "$title" | xargs echo -n)"
     filename="$(printf "%s_%04d-%s_%s.pdf"  "$prefix" "$a" "$b" "$title")"

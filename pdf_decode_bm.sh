@@ -1,11 +1,13 @@
 #!/bin/bash
 ## created on 2019-03-10
 
-#### A helper script to concert pdftk bookmarks to a formated text file for human editing
+#### A helper script to convert pdftk bookmarks to a formatted text file for human editing
 
+## it is called by onother script
 ## no sorting is done in the pdf
 ## extra spaces in variables are not allowed
 
+## TEMPLATE
 # BookmarkBegin
 # BookmarkTitle: Solar Energy Engineering: Processes and Systems
 # BookmarkLevel: 1

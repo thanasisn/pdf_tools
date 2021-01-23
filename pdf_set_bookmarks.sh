@@ -8,7 +8,6 @@
 FILE="$1"
 
 [[ ! -f "$FILE" ]] && echo "Not file input" && echo "exit" && exit 1
-
 if [[ ! "$(file --mime-type -b "$FILE")" == application/pdf ]]; then
     echo "Not a pdf !!"
     exit

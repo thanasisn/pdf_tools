@@ -3,11 +3,13 @@
 
 #### A helper script to covert list of bookmarks to pdftk format
 
-## read a special prepared file of bookmarks and create bookmarks for pdftk info
+## this is called by onother script
+## reads a special prepared file of bookmarks and create bookmarks for pdftk info
 
 ## no sorting is done in the pdf
 ## extra spaces in variables are not allowed
 
+## TEMPLATE
 # BookmarkBegin
 # BookmarkTitle: Solar Energy Engineering: Processes and Systems
 # BookmarkLevel: 1
