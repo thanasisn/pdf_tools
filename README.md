@@ -5,10 +5,15 @@
 Tools to manipulate pdf files.
 
 Things they can do:
-- Edit all the bookmarks of a pdf in a text editor
-- Break a pdf file to multiple based on bookmarks
-- Rewrite a pdf in order to fix file problems
-- Remove annotations from pdf file
+- **pdf_decode_bm.sh          :**  A helper script to convert pdftk bookmarks to a formatted text file for human editing
+- **pdf_encode_bm.sh          :**  A helper script to covert list of bookmarks to pdftk format
+- **pdf_get_bookmarks.sh      :**  Export bookmarks from a pdf for edit
+- **pdf_redo.sh               :**  Read and write a pdf with pdftk
+- **pdf_remove_annotations.sh :**  Remove annotations from a pdf file
+- **pdf_set_bookmarks.sh      :**  Write bookmarks to a pdf after using pdf_get_bookmarks.sh 
+- **pdf_to_chapters.sh        :**  Split a pdf into chapters
+
+
 
 
 
