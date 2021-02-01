@@ -10,6 +10,7 @@ Things they can do:
 - **pdf_get_bookmarks.sh      :**  Export bookmarks from a pdf for edit
 - **pdf_redo.sh               :**  Read and write a pdf with pdftk
 - **pdf_remove_annotations.sh :**  Remove annotations from a pdf file
+- **pdf_rename_xmp.sh         :**  Rename pdfs using xmp metadata
 - **pdf_set_bookmarks.sh      :**  Write bookmarks to a pdf after using pdf_get_bookmarks.sh 
 - **pdf_to_chapters.sh        :**  Split a pdf into chapters
 
