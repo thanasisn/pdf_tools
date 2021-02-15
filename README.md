@@ -2,6 +2,15 @@
 # pdf_tools
 
 
+**This is dead!!**
+
+**Moved to:**
+
+https://github.com/thanasisn/IStillBreakStuff
+
+
+
+
 Tools to manipulate pdf files.
 
 Things they can do:
